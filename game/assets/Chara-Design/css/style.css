@@ -1,0 +1,70 @@
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset darkgrey 2px;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset darkgrey 2px;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0 0 5px whitesmoke;
+}
+
+canvas {
+    border: solid darkgrey 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset darkgrey 2px;
+    cursor: url('../cursor.png'), auto;
+}
+
+body {
+    background-image: url("../../background.png");
+    font-family: 'DotGothic16', sans-serif;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset darkgrey 2px;
+}
+
+.linkGame {
+    text-align: center;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset darkgrey 2px;
+    font-size: 1.4em;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.btn {
+    font-size: 1.3em;
+    text-shadow: 0 0 10px black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+button.btn-lg {
+    width: 200px;
+}
+
+img {
+    opacity: 0%;
+    height: 0px;
+    width: 0px;
+}

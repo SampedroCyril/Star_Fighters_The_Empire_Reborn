@@ -1,0 +1,212 @@
+canvas {
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid grey;
+    cursor: url('../assets/cursor.png'), crosshair;
+}
+
+#titleScreen {
+    border: 3px solid grey;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+}
+
+.invisible {
+    opacity: 0;
+    border: 3px solid grey;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+    z-index: 100;
+}
+
+.visible {
+    opacity: 1;
+    border: 3px solid grey;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+    z-index: 1000;
+}
+
+.macGyver {
+    position: absolute;
+    left: 44.5%;
+    top: 75%;
+    z-index: 900;
+}
+
+body {
+    font-family: 'DotGothic16', sans-serif;
+    background-image: url("../assets/background.png");
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: inset black 2px;
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 1.2em;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 0%;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    font-size: 1.5em;
+}
+
+#aileX {
+    transform: rotate(15deg);
+    position: absolute;
+    bottom: 20vh;
+    left: 20vh;
+}
+
+#aileX2 {
+    transform: rotate(25deg);
+    position: absolute;
+    left: 10vh;
+    bottom: 30vh;
+}
+
+#pigeon {
+    transform: rotate(15deg);
+    position: absolute;
+    bottom: 30vh;
+    left: 40vh;
+}
+
+#destructeur {
+    transform: rotate(195deg);
+    position: absolute;
+    top: 20vh;
+    left: 30vh;
+}
+
+#beam {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 20vh;
+    left: 25vh;
+}
+
+#beam2 {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 40vh;
+    left: 30vh;
+}
+
+#beam3 {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 20vh;
+    left: 50vh;
+}
+
+#beam4 {
+    transform: rotate(125deg);
+    position: absolute;
+    top: 50vh;
+    right: 45vh;
+}
+
+#tie {
+    transform: rotate(15deg);
+    position: absolute;
+    left: 45vh;
+    top: 10vh;
+}
+
+#tieBullet {
+    transform: rotate(110deg);
+    position: absolute;
+    left: 47.5vh;
+    top: 38vh;
+}
+
+#tieBullet2 {
+    transform: rotate(100deg);
+    position: absolute;
+    right: 50vh;
+    top: 30vh;
+}
+
+#tieBullet3 {
+    transform: rotate(60deg);
+    position: absolute;
+    right: 40vh;
+    bottom: 30vh;
+}
+
+#bigBeam {
+    transform: rotate(110deg);
+    position: absolute;
+    left: 30vh;
+    bottom: 25vh;
+}
+
+#bigBeam2 {
+    transform: rotate(110deg);
+    position: absolute;
+    bottom: 50vh;
+    left: 20vh;
+}
+
+#tie3 {
+    transform: rotate(-50deg);
+    position: absolute;
+    right: 10vh;
+    bottom: 30vh;
+}
+
+#tie2 {
+    transform: rotate(-30deg);
+    position: absolute;
+    right: 30vh;
+    bottom: 10vh;
+}
+
+#tieX1 {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 15vh;
+    right: 45vh;
+}
+
+#aileX3 {
+    transform: rotate(120deg);
+    position: absolute;
+    right: 50vh;
+    bottom: 50vh;
+}
+
+button:hover {
+    background-color: black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a {
+    color: black;
+}
+
+p {
+    text-shadow: 0 0 10px whitesmoke;
+}

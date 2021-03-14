@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF: TER - Chara Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/design.js"></script>
+</head>
+
+<body>
+    <h1 class="text-center py-2 text-light mb-0">StarFighters: The Empire Reborn</h1>
+    <p class="linkGame"><button><a href="../../index.html">Play the game!</a></button></p>
+    <div>
+        <h2 class="text-center py-1 mt-0">Character Generator</h2>
+    </div>
+    <div class="text-center">
+        <p>Click on the button to generate the ship you want.
+            <br> To get it, right-click on the ship and save image as .png !
+        </p>
+    </div>
+    <div class="container-fluid text-center mb-3">
+        <button id="X_Wing" class="btn btn-secondary col-2">X-Wing</button>
+        <button id="Millenium_Falcon" class="btn btn-secondary col-2">Millenium Falcon</button>
+        <button id="Tie_Fighter" class="btn btn-secondary col-2">Tie Fighter</button>
+        <button id="Tie_Advanced_x1" class="btn btn-secondary col-2">Tie Advanced x1</button>
+        <button id="Star_Destroyer" class="btn btn-secondary col-2">Star Destroyer</button>
+    </div>
+    <div class="container-fluid row justify-content-center mx-0 px-0 mb-3">
+        <div class="text-center col-2">
+            <canvas id="canvas" width="80" height="85"></canvas>
+        </div>
+    </div>
+    <div class="text-center">
+        <p>The Death Star lines are partially randomised.
+            <br> Chose the design you like best !
+        </p>
+    </div>
+    <div class="container-fluid text-center my-3">
+        <button id="Death_Star" class="btn btn-secondary col-2">Death Star</button>
+    </div>
+    <div class="container-fluid row justify-content-center mx-0 px-0 mb-3">
+        <canvas id="canvas2" width="160" height="160"></canvas>
+    </div>
+    <div class="text-center">
+        <p>VFX, looking at you LucasArts!</p>
+    </div>
+    <div class="container-fluid text-center my-3">
+        <button id="playerBeams" class="btn btn-secondary btn-lg">Player Shots</button>
+        <button id="tieBeams" class="btn btn-secondary btn-lg">Ennemies Shots</button>
+        <button id="destroyerBeams" class="btn btn-secondary btn-lg">Destroyer Shots</button>
+        <button id="explosionRed" class="btn btn-secondary btn-lg">Red Explosion</button>
+        <button id="explosionGreen" class="btn btn-secondary btn-lg">Green Explosion</button>
+        <button id="cursedCursor" class="btn btn-secondary btn-lg">Cursor</button>
+        <button id="deathray" class="btn btn-secondary btn-lg">Death Ray</button>
+    </div>
+    <div class="container-fluid row justify-content-center mx-0 px-0 mb-3">
+        <canvas id="canvas3" width="14" height="36"></canvas>
+    </div>
+
+    <div class="text-center">
+        <p>Player Interaction</p>
+    </div>
+    <div class="container-fluid text-center my-3">
+        <button id="Darth_Vader" class="btn btn-secondary col-2">Darth Vader</button>
+        <button id="Leader_Rogue" class="btn btn-secondary col-2">Rogue Leader</button>
+        <button id="startGame" class="btn btn-secondary col-2">Start</button>
+        <button id="restartGame" class="btn btn-secondary col-2">Restart</button>
+    </div>
+    <div class="container-fluid row justify-content-center mx-0 px-0 mb-3">
+        <canvas id="canvas4" width="700" height="100"></canvas>
+    </div>
+    <div class="text-center">
+        <p>Game Scenes</p>
+    </div>
+    <div class="container-fluid text-center my-3">
+        <button id="screentitle" class="btn btn-secondary col-2">Screen Title</button>
+        <button id="loading" class="btn btn-secondary col-2">Loading Screen</button>
+        <button id="background" class="btn btn-secondary col-2">Game Background</button>
+        <button id="gameover" class="btn btn-secondary col-2">Game Over Scene</button>
+    </div>
+    <div class="container-fluid row justify-content-center mx-0 px-0 mb-3">
+        <canvas id="canvas5" width="700" height="800"></canvas>
+    </div>
+    <div class="container-fluid text-center my-3">
+        <button id="musictheme" class="btn btn-secondary col-2">Music</button>
+        <button id="shotSFX" class="btn btn-secondary col-2">Shot SFX</button>
+        <button id="explosionSFX" class="btn btn-secondary col-2">Explosion SFX</button>
+        <button id="goSound" class="btn btn-secondary col-2">Game Over SFX</button>
+    </div>
+    <div class="container-fluid row justify-content-center mx-0 px-0 mb-3">
+        <canvas id="canvas6" width="50" height="50"></canvas>
+    </div>
+    <img src="../etoiledelamort.png" alt="deathstar" id="etoilenoire">
+    <img src="../aileX_70.png" alt="ailex" id="ailex">
+    <img src="../destructeur.png" alt="destructeur" id="destructeur">
+    <img src="../tie.png" alt="tie" id="tie">
+    <img src="../tieX1.png" alt="tiex1" id="tiex1">
+
+    <footer>
+        <div class="row pt-3 mx-2 justify-content-between">
+            <div class="text-left">
+                <p>&copy; Cor-Alien, StarFighters : The Empire Reborn, 2021.</p>
+            </div>
+            <div class="text-right">
+                <p id="dev">Cyril SAMPEDRO & Quentin SCAEROU </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

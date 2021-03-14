@@ -1,0 +1,12 @@
+canvas {
+    border: solid 1px grey;
+    background-color: darkgray;
+    cursor: url('../assets/cursor.png'), auto;
+}
+
+img {
+    opacity: 0%;
+    transform: rotate(270deg);
+    height: 0px;
+    width: 0px;
+}
