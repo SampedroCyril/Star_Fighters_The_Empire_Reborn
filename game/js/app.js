@@ -931,6 +931,6 @@ function restart() {
         music.play('', 0, 1, true);
     } else {
         cheatMode = false;
-        location.replace('../mainScreen.html');
+        location.replace('../index.html');
     }
 }
