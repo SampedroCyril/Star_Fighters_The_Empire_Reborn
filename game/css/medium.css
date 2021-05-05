@@ -1,0 +1,56 @@
+@media screen and (max-width: 1800px) {
+    #aileX {
+        display: none;
+    }
+    #aileX2 {
+        display: none;
+    }
+    #aileX3 {
+        display: none;
+    }
+    #pigeon {
+        display: none;
+    }
+    #destructeur {
+        display: none;
+    }
+    #tie {
+        display: none;
+    }
+    #tie2 {
+        display: none;
+    }
+    #tie3 {
+        display: none;
+    }
+    #tieX1 {
+        display: none;
+    }
+    #beam {
+        display: none;
+    }
+    #beam2 {
+        display: none;
+    }
+    #beam3 {
+        display: none;
+    }
+    #beam4 {
+        display: none;
+    }
+    #tieBullet {
+        display: none;
+    }
+    #tieBullet2 {
+        display: none;
+    }
+    #tieBullet3 {
+        display: none;
+    }
+    #bigBeam {
+        display: none;
+    }
+    #bigBeam2 {
+        display: none;
+    }
+}
