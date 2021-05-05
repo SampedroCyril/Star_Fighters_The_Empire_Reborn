@@ -3,7 +3,6 @@ canvas {
     margin-top: 20px;
     border: 3px solid grey;
     width: 100%;  
-    cursor: url('../assets/cursor.png'), crosshair;
 }
 
 .titleScreen {
@@ -39,6 +38,7 @@ canvas {
 }
 
 body {
+    cursor: url('../assets/cursor.png'), crosshair;
     font-family: 'DotGothic16', sans-serif;
     background-image: url("../assets/background.png");
 }

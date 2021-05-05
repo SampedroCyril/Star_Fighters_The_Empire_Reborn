@@ -70,14 +70,12 @@
         width: 100%;
         margin-top: 20px;
         border: 3px solid grey;
-        cursor: url('../assets/cursor.png'), crosshair;
     }
     .titleScreen {
         position: fixed;
         left: 20%;
         margin-top: 20px;
         border: 3px solid grey;
-        cursor: url('../assets/cursor.png'), crosshair;
     }
     .macGyver {
         margin-left: -6.5%;
@@ -85,5 +83,8 @@
         left: 43%;
         top: 75%;
         z-index: 900;
+    }
+    body {
+        cursor: url('../assets/cursor.png'), crosshair;
     }
 }

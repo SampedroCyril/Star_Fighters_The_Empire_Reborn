@@ -62,4 +62,7 @@
         top: 75%;
         z-index: 900;
     }
+    body{
+        cursor: url('../assets/cursor.png'), crosshair;
+    }
 }
