@@ -11,4 +11,4 @@ All the physics and functionalities of the game have been implemented with the u
 
 It was our first project and we're very proud of the result we managed to produce.
 
-I hope you will enjoy playing [Star Fighters](https://csampedro30.github.io/Star_Fighters_The_Empire_Reborn/) :)
+I hope you will enjoy playing [Star Fighters](https://sampedrocyril.github.io/Star_Fighters_The_Empire_Reborn/) :)
